@@ -17,7 +17,9 @@ useEffect(() => {
 console.log('darkmode activated');
 document.body.classList.toggle('dark-mode')
 
-  } 
+  } else {
+    document.body.classList.remove('dark-mode')
+  }
 
 }, [value])
 

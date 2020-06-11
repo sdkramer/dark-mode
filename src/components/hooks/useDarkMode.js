@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import useLocalStorage from './useLocalStorage';
 
 const useDarkMode = (key, initialValues) => {
@@ -11,7 +11,7 @@ const toggleMode = e => {
 }
 
 useEffect(() => {
-  const body = document.getElementsByTagName('body')[0];
+  
 
   if(value) {
 console.log('darkmode activated');

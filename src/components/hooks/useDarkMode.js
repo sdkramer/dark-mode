@@ -24,3 +24,5 @@ document.body.classList.toggle('dark-mode')
 return [value, toggleMode]
 
 }
+
+export default useDarkMode; 
